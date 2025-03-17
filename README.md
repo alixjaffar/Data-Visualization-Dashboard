@@ -1,14 +1,35 @@
-# Data-Visualization-Dashboard
-A Data Visualization Dashboard to help you process and understand raw data properly.
+# Formula 1 Championship Dashboard
 
-An interactive data visualization dashboard built with R Shiny that displays global COVID-19 statistics and trends.
+An interactive data visualization dashboard built with R Shiny that displays Formula 1 championship statistics and trends from 1950 to present.
 
 ## Features
-- Interactive line charts showing COVID-19 cases and deaths over time
-- Choropleth map displaying case distribution across countries
-- Summary statistics and key metrics
-- Country-specific filters and date range selection
+- Interactive line charts showing driver and constructor championship points over time
+- Bar charts displaying top drivers by championships
+- Summary statistics including total championships, race wins, and points
+- Decade-specific filters and driver selection
+- Separate views for driver and constructor championships
 - Responsive design that works on both desktop and mobile
+
+## Dashboard Sections
+
+### Overview Tab
+- Total Driver Championships
+- Most Race Wins
+- Most Points in a Season
+- Total Constructor Championships
+- Championship Points Over Time
+- Top 10 Drivers by Championships
+
+### Driver Champions Tab
+- Driver Championship Points by Year
+- Race Wins by Year
+
+### Constructor Champions Tab
+- Constructor Championship Points by Year
+- Constructor Race Wins by Year
+
+### Data Table Tab
+- Raw data view with sorting and filtering capabilities
 
 ## Setup Instructions
 
@@ -20,7 +41,7 @@ An interactive data visualization dashboard built with R Shiny that displays glo
 3. Run the application by opening `app.R` in RStudio and clicking "Run App"
 
 ## Data Source
-The dashboard uses COVID-19 data from Our World in Data (https://ourworldindata.org/covid-data)
+The dashboard currently uses sample data. Future versions will include real Formula 1 championship data from official sources.
 
 ## Dependencies
 - shiny
